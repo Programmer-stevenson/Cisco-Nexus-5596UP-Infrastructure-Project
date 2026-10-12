@@ -234,27 +234,34 @@ A MAC-table command initially returned a syntax error; the corrected form was us
 
 ---
 
+
 <a id="project-results"></a>
 ## 9. Project Results
 
-This project documents a full hands-on sequence across **bootloader access, TFTP-based kickstart recovery, local NX-OS image transfer, boot configuration, hardware diagnostics, interface inspection, and system initialization**.
+This project demonstrates hands-on enterprise infrastructure servicing and NX-OS image deployment on a physical **Cisco Nexus N5K-C5596UP** data-center switch.
 
-The terminal record also captures real troubleshooting points, including image-pair compatibility warnings and command corrections. Those details are part of working through the actual device behavior, rather than a simulated or idealized command sequence.
+### Technical Results
+
+| Technical Area | Work Performed |
+|---|---|
+| **Bootloader Operations** | Accessed the Cisco loader environment through a serial-console connection using Tera Term. |
+| **TFTP Image Transfer** | Established management connectivity with a local TFTP server and transferred NX-OS images over Ethernet. |
+| **NX-OS Image Management** | Worked with kickstart and system images, copied image files to internal bootflash, and configured boot variables. |
+| **Secure Data Sanitization** | Executed configuration-clearing and system-initialization procedures to remove stored configuration and system data. |
+| **Hardware Diagnostics** | Inspected installed modules, power-supply status, hardware inventory, and diagnostic test results. |
+| **System Monitoring** | Examined CPU utilization, memory resources, and operating-system status through NX-OS CLI commands. |
+| **Interface Verification** | Reviewed Ethernet interface status, link conditions, and port statistics. |
+| **Technical Troubleshooting** | Identified command syntax errors and recorded an NX-OS image compatibility warning during the workflow. |
+| **Technical Documentation** | Documented the procedures through 19 terminal captures, hardware photographs, and a detailed technical report. |
+
+### Project Summary
+
+The completed workflow demonstrates practical experience with Cisco data-center switching equipment, network-based operating-system imaging, bootflash management, secure sanitization, and infrastructure diagnostics.
+
+The project provides a documented example of physical enterprise networking operations, including the commands executed, system responses, and troubleshooting encountered throughout the process.
 
 [↑ Back to Table of Contents](#table-of-contents)
 
----
-
-<a id="technical-report"></a>
-## 10. Technical Report
-
-The report provides the complete phase-by-phase walkthrough with terminal evidence and explanations of each command.
-
-**[View the Cisco Nexus 5596UP Technical Project Report (PDF)](./Cisco_Nexus_5596UP_Technical_Project_Reviewed.pdf)**
-
-[↑ Back to Table of Contents](#table-of-contents)
-
----
 
 <a id="about"></a>
 ## 11. About
