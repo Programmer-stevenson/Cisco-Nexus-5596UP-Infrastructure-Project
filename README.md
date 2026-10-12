@@ -62,15 +62,15 @@ The switch and TFTP server communicated on the same local subnet; a default gate
 
 **Nexus 5596UP — chassis and front interfaces**
 
-![Cisco Nexus 5596UP chassis](assets/nk500%20full.png)
+![Cisco Nexus 5596UP chassis](assets/nk5000full.png)
 
 **Internal chassis — hardware layout**
 
-![Interior of Cisco Nexus chassis](assets/Cisco_Internal_Chassis_Cropped%281%29.jpg)
+![Interior of Cisco Nexus chassis](assets/Cisco_Internal_Chassis_Cropped.jpg)
 
 **Internal circuit board — close-up**
 
-![Cisco Nexus internal PCB](assets/Cisco_Internal_PCB_Cropped%281%29.jpg)
+![Cisco Nexus internal PCB](assets/Cisco_Internal_PCB_Cropped.jpg)
 
 These photographs show the actual chassis and internal components associated with the project.
 
